@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <PackageReference Include="AutoMapper"/>
+        <PackageReference Include="inercya.Newtonsoft.Json.Converters"/>
+        <PackageReference Include="MediatR"/>
+        <PackageReference Include="MediatR.Contracts"/>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Features"/>
+        <PackageReference Include="Newtonsoft.Json.Schema"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\ClinicalTrials.Domain\ClinicalTrials.Domain.csproj"/>
+    </ItemGroup>
+</Project>
