@@ -1,12 +1,12 @@
 ﻿# ClinicalTrials
 
 ## Overview
-ClinicalTrials is a C# project designed to manage and analyze clinical trial data. The project is structured into several components, including domain, application, persistence, API, and integration tests.
+ClinicalTrials is a C# project designed to manage and analyze clinical trial data. The project is structured into several components, including domain, application, infrastructure, API, and integration tests.
 
 ## Project Structure
 - **ClinicalTrials.Domain**: Contains the core domain models.
 - **ClinicalTrials.Application**: Contains application services and use cases.
-- **ClinicalTrials.Persistence**: Handles data access and storage.
+- **ClinicalTrials.Infrastructure**: Handles data access and storage.
 - **ClinicalTrials.API**: Exposes the application functionality through a RESTful API.
 - **ClinicalTrials.IntegrationTests**: Contains integration tests to ensure the components work together correctly.
 
